@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 9dc18d9dbefddc44ebab3f88ec5da09c
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Forest_terrain_dirt_grass(fall)_128px_0
-    21300002: Forest_terrain_dirt_grass(fall)_128px_1
-    21300004: Forest_terrain_dirt_grass(fall)_128px_2
-    21300006: Forest_terrain_dirt_grass(fall)_128px_3
-    21300008: Forest_terrain_dirt_grass(fall)_128px_4
-    21300010: Forest_terrain_dirt_grass(fall)_128px_5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Forest_terrain_dirt_grass(fall)_128px_0
+  - first:
+      213: 21300002
+    second: Forest_terrain_dirt_grass(fall)_128px_1
+  - first:
+      213: 21300004
+    second: Forest_terrain_dirt_grass(fall)_128px_2
+  - first:
+      213: 21300006
+    second: Forest_terrain_dirt_grass(fall)_128px_3
+  - first:
+      213: 21300008
+    second: Forest_terrain_dirt_grass(fall)_128px_4
+  - first:
+      213: 21300010
+    second: Forest_terrain_dirt_grass(fall)_128px_5
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -27,6 +39,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -37,7 +51,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -107,13 +121,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 6c1f7efafb24b164b9024fbae7b40459
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -126,14 +141,15 @@ TextureImporter:
         y: 0
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 025e4dea85212954987cba8bb2852d99
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -147,13 +163,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 0987928b723f4294da356049fdfe63b7
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -167,13 +184,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 55c90b6046155ea46a62919f8090f317
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -182,18 +200,19 @@ TextureImporter:
       name: Forest_terrain_dirt_grass(fall)_128px_4
       rect:
         serializedVersion: 2
-        x: 512
+        x: 513
         y: 0
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 150a2fdc84d5bce45bec27f1b746fdfe
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -207,13 +226,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 92740939ca279034da6b7a1964427ac3
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -222,11 +242,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 9320296415c347345a50907cfdc481bd
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
