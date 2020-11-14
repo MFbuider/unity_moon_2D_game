@@ -912,6 +912,7 @@ GameObject:
   - component: {fileID: 1206817458}
   - component: {fileID: 1206817457}
   - component: {fileID: 1206817459}
+  - component: {fileID: 1206817460}
   m_Layer: 0
   m_Name: Gunner
   m_TagString: Untagged
@@ -1062,6 +1063,26 @@ CompositeCollider2D:
     m_Paths: []
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.000005
+--- !u!114 &1206817460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206817453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71ed1f7600535e42a74c7e359d26bd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Movingspeed: 10.5
+  jump: 0
+  floor: 0
+  bullet: {fileID: 0}
+  "\u5B50\u5F48\u751F\u6210\u9EDE": {fileID: 0}
+  Movingpeed: 800
+  bulletAU: {fileID: 0}
+  lives: 3
 --- !u!1 &1394918021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,7 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c9e19310bacd1449fe41be7eb4cb83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: 64301
+  cc: 2331
   g: 1000
   a: bc
   haveatree: 1
