@@ -1,6 +1,9 @@
 ﻿
 using UnityEngine;
 
+/// <summary>
+/// 移動
+/// </summary>
 public class plear : MonoBehaviour
 {
     [Header("速度"), Tooltip("用來設定移動的速度。")]
@@ -17,4 +20,22 @@ public class plear : MonoBehaviour
     bool AudioSource = false;
     bool RD= false;
     bool nimation = false;
+    private void Move()
+    {
+
+    }
+    /// <summary>
+    /// 跳躍
+    /// </summary>
+    public void jump2()
+    {
+
+    }
+    /// <summary>
+    /// 開槍
+    /// </summary>
+    public void fire()
+    {
+
+    }
 }
