@@ -18,6 +18,7 @@ public class plear : MonoBehaviour
     public AudioClip bulletAU;
     public int lives = 3;[Range(0, 5)]
 <<<<<<< HEAD
+<<<<<<< HEAD
     private AudioSource aud;
     private Rigidbody2D rig;
     private Animator ani;
@@ -51,6 +52,14 @@ public class plear : MonoBehaviour
     {
 
 >>>>>>> parent of 8deb39d... PC(exe)
+=======
+    bool AudioSource = false;
+    bool RD= false;
+    bool nimation = false;
+    private void Move()
+    {
+
+>>>>>>> parent of 8deb39d... PC(exe)
     }
 
        
@@ -71,11 +80,14 @@ public class plear : MonoBehaviour
 
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void QuitGame()
     {
         Application.Quit();
     }
 
 =======
+=======
+>>>>>>> parent of 8deb39d... PC(exe)
 }
 >>>>>>> parent of 8deb39d... PC(exe)
