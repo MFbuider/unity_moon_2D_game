@@ -23,7 +23,8 @@ public class plear : MonoBehaviour
 
     private void Awake()
     {
-        rig = GetComponent<Rigidbody2D>(); 
+        rig = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -33,11 +34,23 @@ public class plear : MonoBehaviour
     {
         float L = Input.GetAxis("Horizontal");
         rig.velocity = new Vector2(L * speed, rig.velocity.y);
+        ani.SetBool("run bool", L != 0);
+        // transform 此物件的變形元件
+        // eulerAngles 歐拉角度 0 - 180 - 270 - 360...
+        transform.eulerAngles = new Vector3(0, 0, 0);
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
     }
+
+       
+    }
+    
     /// <summary>
     /// 跳躍
     /// </summary>
-    public void jump2()
+    public void jump3()
     {
    
     }
@@ -52,4 +65,4 @@ public class plear : MonoBehaviour
     {
         Application.Quit();
     }
-}
+
