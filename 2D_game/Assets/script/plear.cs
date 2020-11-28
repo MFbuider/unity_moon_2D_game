@@ -7,7 +7,7 @@ using UnityEngine;
 public class plear : MonoBehaviour
 {
     [Header("速度"), Tooltip("用來設定移動的速度。")]
-    public float speed = 10.5f;[Range(0, 1000)]
+    public float Movingspeed = 10.5f;[Range(0, 1000)]
     [Header("跳躍"), Tooltip("用來設定跳躍的高度。")]
     public float jump = 100f;[Range(0, 3000)]
     public bool floor = false;
@@ -17,6 +17,7 @@ public class plear : MonoBehaviour
     public float Movingpeed = 800f;[Range(0, 5000)]
     public AudioClip bulletAU;
     public int lives = 3;[Range(0, 5)]
+<<<<<<< HEAD
     private AudioSource aud;
     private Rigidbody2D rig;
     private Animator ani;
@@ -42,6 +43,14 @@ public class plear : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
+=======
+    bool AudioSource = false;
+    bool RD= false;
+    bool nimation = false;
+    private void Move()
+    {
+
+>>>>>>> parent of 8deb39d... PC(exe)
     }
 
        
@@ -52,7 +61,7 @@ public class plear : MonoBehaviour
     /// </summary>
     public void jump3()
     {
-   
+
     }
     /// <summary>
     /// 開槍
@@ -61,8 +70,12 @@ public class plear : MonoBehaviour
     {
 
     }
+<<<<<<< HEAD
     public void QuitGame()
     {
         Application.Quit();
     }
 
+=======
+}
+>>>>>>> parent of 8deb39d... PC(exe)

@@ -17,8 +17,8 @@ public class apiStatic : MonoBehaviour
         int count = Camera.allCameras.Length;
         print(count + " cameras");
         Cursor.visible = false;
-        //Application.OpenURL("https://store.steampowered.com/l");
-        num = Mathf.Floor(123.567f);
+        Application.OpenURL(https://store.steampowered.com/l);
+        num = Mathf.Floor(123.567f));
         print(num);
     }
     private void Update()
