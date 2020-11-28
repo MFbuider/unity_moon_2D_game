@@ -19,6 +19,7 @@ public class plear : MonoBehaviour
     public int lives = 3;[Range(0, 5)]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private AudioSource aud;
     private Rigidbody2D rig;
     private Animator ani;
@@ -63,6 +64,14 @@ public class plear : MonoBehaviour
     }
 
        
+=======
+    bool AudioSource = false;
+    bool RD= false;
+    bool nimation = false;
+    private void Move()
+    {
+
+>>>>>>> parent of 8deb39d... PC(exe)
     }
     
     /// <summary>
@@ -81,12 +90,15 @@ public class plear : MonoBehaviour
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void QuitGame()
     {
         Application.Quit();
     }
 
 =======
+=======
+>>>>>>> parent of 8deb39d... PC(exe)
 =======
 >>>>>>> parent of 8deb39d... PC(exe)
 }
